@@ -46,4 +46,4 @@
 1. Install dependencies:
 `pub get`
 2. Run build
-`sh scripts/build.sh`
+`dart scripts/sass_compile.dart src/index.scss result.css`
