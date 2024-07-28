@@ -7,6 +7,43 @@ body {
   overflow-wrap: break-word;
 }
 
+a {
+  color: var(--linkColor) !important;
+}
+
+.package-badge,
+.score-key-figure-title {
+  color: var(--linkColor) !important;
+  border-color: var(--linkColor);
+}
+
+.tag-badge-main {
+  color: var(--linkColor) !important;
+  border-color: var(--linkColor) !important;
+}
+
+.packages-score-value-number,
+.packages-score-value-sign {
+  color: var(--linkColor);
+}
+
+.packages-score-label,
+.score-key-figure-label {
+  color: #bbb !important;
+}
+
+.detail-container {
+  h1,
+  p {
+    color: var(--textColor);
+  }
+}
+
+.tab-button.-active {
+  color: var(--linkColor) !important;
+  border-bottom-color: var(--linkColor) !important;
+}
+
 ::-webkit-scrollbar-thumb {
   background-color: var(--pane12);
 }
@@ -31,7 +68,9 @@ body {
 }
 
 .mdc-checkbox
-  .mdc-checkbox__native-control:enabled:not(:checked):not(:indeterminate):not([data-indeterminate='true'])
+  .mdc-checkbox__native-control:enabled:not(:checked):not(:indeterminate):not(
+    [data-indeterminate="true"]
+  )
   ~ .mdc-checkbox__background {
   border-color: var(--gray);
 }

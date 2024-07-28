@@ -1,4 +1,4 @@
-@use 'sass:color';
+@use "sass:color";
 
 $backgroundColor: #121212;
 $pane01Color: color.mix(#ffffff, $backgroundColor, 5%);
@@ -27,4 +27,5 @@ $pane24Color: color.mix(#ffffff, $backgroundColor, 16%);
   --darkBlue: #151920;
   --darkRed: #391f1f;
   --activeRed: #ae4b4b;
+  --linkColor: #5fcefd;
 }
