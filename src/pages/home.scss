@@ -8,6 +8,11 @@
     background: transparent;
   }
 
+  h1,
+  h3 {
+    color: var(--linkColor) !important;
+  }
+
   .mini-list-item {
     background: var(--pane06);
 
